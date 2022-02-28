@@ -1,0 +1,118 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/* *{
+  font-family: 'Montserrat', sans-serif;
+} */
+
+
+
+body{
+  font-family: 'awesome', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+a{
+  color: rgb(26, 23, 23);
+  text-decoration: none;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-weight: 500;
+}
+input, button, textarea {
+  outline: none;
+}
+button{
+  cursor: pointer;
+}
+ul {
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Common CSS */
+.inner {
+  width: 1300px;
+  margin: auto;
+}
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+}
+nav {
+    width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo {
+  list-style: none;
+  font-size: 32px;
+  margin: 20px;
+}
+.logo li a:hover {
+  color: rgb(189, 113, 27);
+}
+.gnb {
+  
+  display: flex;
+}
+.gnb li {
+  
+}
+.gnb li a {
+  font-size: 17px;
+  margin: 24px;
+}
+.gnb li a:hover {
+  color: rgb(189, 113, 27);
+}
+.gnb li a:last-child {
+  
+  margin-right: 0;
+}
+/* Intro */
+.intro {
+  
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(0, 255, 76);
+  height: 70vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(images/iii.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+.heading {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.heading h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+  line-height:  1.4em;
+  font-weight: bolder;
+}
+.heading h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  line-height:  0em;
+  font-weight: bolder;
+}
+.heading p {
+  font-size: 22px;
+  padding: 0 150;
+}
